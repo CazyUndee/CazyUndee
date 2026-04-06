@@ -18,7 +18,10 @@ I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Syst
 - Making Varn, a public chat app that my hardware
 - Making Dxen, a agentic coding cli built for performance and speed
 - Making Bixon, a programming language built from typescript to be as intuitive as possible
-- Planning on making 
+
+### Recent Projects:
+- OpenRelay
+- Flint UI
 
 ### Where I Am (dev platforms)
 <p>
