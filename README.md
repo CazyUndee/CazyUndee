@@ -1,5 +1,5 @@
 # Hi, I'm CazyUndee
-I'm 13, self-taught ML engineer building weird things linked between AI, Infra, Systems, and UI
+I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Systems, and UI
 
 ---
 
