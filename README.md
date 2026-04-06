@@ -29,4 +29,5 @@ I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Syst
   <a href="https://huggingface.co/cazyundee"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black" /></a>
 </p>
 
-I also have my own bio website, go visit it [here]{https://
+### My website
+Im making it rn will add soon
