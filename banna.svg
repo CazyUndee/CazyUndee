@@ -1,0 +1,25 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6ec4">
+        <animate attributeName="stop-color"
+          values="#ff6ec4;#1fd1f9;#7873f5;#ff6ec4"
+          dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#7873f5">
+        <animate attributeName="stop-color"
+          values="#7873f5;#ff6ec4;#1fd1f9;#7873f5"
+          dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#1fd1f9">
+        <animate attributeName="stop-color"
+          values="#1fd1f9;#7873f5;#ff6ec4;#1fd1f9"
+          dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#grad)" rx="10"/>
+  <text x="400" y="115" text-anchor="middle"
+    font-size="48" font-weight="bold" fill="white"
+    font-family="Arial, sans-serif">CazyUndee</text>
+</svg>
