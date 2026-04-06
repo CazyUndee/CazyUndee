@@ -1,7 +1,7 @@
 # Hi, I'm CazyUndee
 I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Systems, and UI
 <p align="center">
-  <img src="./banner.svg" alt="Banner" width="100%"/>
+  <img src="./banna.svg" alt="Banner" width="100%"/>
 </p>
 
 ---
