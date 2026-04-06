@@ -27,6 +27,7 @@ I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Syst
 <p>
   <a href="https://github.com/cazyundee"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
   <a href="https://huggingface.co/cazyundee"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black" /></a>
+  <a href="https://www.kaggle.com/crazybro"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
 </p>
 
 ### My website
