@@ -7,7 +7,7 @@
 I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Systems, and UI
 
 ---
-[![CazyUndee's GitHub stats](https://bio-stats.vercel.app/api?username=CazyUndee)
+![My Stats](https://bio-stats.vercel.app/api?username=CazyUndee)
 
 ### Stack
 <p>
@@ -16,7 +16,7 @@ I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Syst
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/llama.cpp-555555?style=flat" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/FlintUI-6b2323?style=flat" />
+  <img src="https://img.shields.io/badge/CronixUI-6b2323?style=flat" />
   <img src="https://img.shields.io/badge/Claude_Code-D97706?style=flat" />
 </p>
 
