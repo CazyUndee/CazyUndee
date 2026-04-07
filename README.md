@@ -7,6 +7,7 @@
 I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Systems, and UI
 
 ---
+[![Top Langs](https://bio-stats.vercel.app/api/top-langs/?username=CazyUndee)
 ![My Stats](https://bio-stats.vercel.app/api?username=CazyUndee)
 
 ### Stack
