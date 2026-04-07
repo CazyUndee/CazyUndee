@@ -7,7 +7,7 @@
 I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Systems, and UI
 
 ---
-![My Stats](https://bio-stats.vercel.app/api?username=CazyUndee&show_icons=true&theme=cronix)
+![My Stats](https://bio-stats.vercel.app/api?username=CazyUndee&show_icons=true)
 
 ### Stack
 <p>
