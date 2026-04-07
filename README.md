@@ -37,6 +37,6 @@ I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Syst
 
 Stats:
 
-[![CazyUndee's GitHub stats](https://bio-stats.vercel.app/api?username=CazyUndee)](https://github.com/CazyUndee/CazyUndee)
+[![CazyUndee's GitHub stats](https://bio-stats.vercel.app/api?username=CazyUndee)
 ### My website
 Im making it rn will add soon
