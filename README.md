@@ -26,7 +26,7 @@ I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Syst
 
 ### Recent Projects:
 - OpenRelay
-- Flint UI
+- CronixUI
 
 ### Where I Am (dev platforms)
 <p>
