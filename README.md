@@ -35,5 +35,9 @@ I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Syst
   <a href="https://www.kaggle.com/crazybro"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
 </p>
 
+Stats:
+
+[![GitHub Stats](https://bio-stats.vercel.app/api?username=CazyUndee)](https://github.com/CazyUndee/bio-stats)
+
 ### My website
 Im making it rn will add soon
