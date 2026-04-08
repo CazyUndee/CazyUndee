@@ -7,27 +7,27 @@
 I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Systems, and UI
 
 ---
+<table border="0" cellspacing="0">
+<tr>
+<td valign="top" width="50%">
+
 ![My Stats](https://bio-stats.vercel.app/api?username=CazyUndee)
 
-### Stack
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/llama.cpp-555555?style=flat" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/CronixUI-6b2323?style=flat" />
-  <img src="https://img.shields.io/badge/Claude_Code-D97706?style=flat" />
-</p>
+</td>
+<td valign="top" width="50%">
 
-### What im doing rn:
-- Making Varn, a public chat app that my hardware
-- Making Dxen, a agentic coding cli built for performance and speed
-- Making Bixon, a programming language built from typescript to be as intuitive as possible
+**What im doing rn:**
+- Making Varn, a public chat app that runs on my hardware
+- Making Dxen, an agentic coding CLI built for performance and speed
+- Making Bixon, a programming language built from TypeScript to be as intuitive as possible
 
-### Recent Projects:
+**Recent Projects:**
 - OpenRelay
 - CronixUI
+
+</td>
+</tr>
+</table>
 
 ### Where I Am (dev platforms)
 <p>
