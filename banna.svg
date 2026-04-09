@@ -1,128 +1,105 @@
-<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CazyUndee banner">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0a0a0a">
-        <animate attributeName="stop-color" values="#0a0a0a;#111111;#1a1a1a;#0a0a0a" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" style="stop-color:#111111">
-        <animate attributeName="stop-color" values="#111111;#1a1a1a;#0a0a0a;#111111" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" style="stop-color:#1a1a1a">
-        <animate attributeName="stop-color" values="#1a1a1a;#0a0a0a;#111111;#1a1a1a" dur="12s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="55%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#6b2323"/>
-      <stop offset="50%" stop-color="#8a3535"/>
+      <stop offset="50%" stop-color="#8b3333"/>
       <stop offset="100%" stop-color="#6b2323"/>
     </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#f0ede8"/>
       <stop offset="50%" stop-color="#c97a7a"/>
       <stop offset="100%" stop-color="#f0ede8"/>
     </linearGradient>
+
     <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-    <filter id="accentGlow">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.6"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.55"/>
     </filter>
-    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="rgba(0,0,0,0.03)"/>
+
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="rgba(255,255,255,0.03)"/>
     </pattern>
+
     <polygon id="star" points="0,-4 1.2,-1.2 4,0 1.2,1.2 0,4 -1.2,1.2 -4,0 -1.2,-1.2" fill="#c97a7a"/>
   </defs>
-  <!-- Background -->
-  <rect width="800" height="200" fill="url(#grad)" rx="14" filter="url(#shadow)"/>
-  <rect width="800" height="200" rx="14" fill="url(#scanlines)" opacity="0.4"/>
-  <!-- Subtle noise texture -->
-  <rect width="800" height="200" rx="14" fill="rgba(255,255,255,0.01)" style="mix-blend-mode: overlay"/>
-  <!-- Animated particles -->
-  <g opacity="0.5">
-    <circle cx="120" cy="60" r="1.5" fill="#c97a7a" filter="url(#glow)">
-      <animate attributeName="cy" values="180;20;180" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.7;0" dur="8s" repeatCount="indefinite"/>
+
+  <rect width="800" height="200" rx="14" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect width="800" height="200" rx="14" fill="url(#scan)" opacity="0.5"/>
+  <rect x="8" y="8" width="784" height="184" rx="10" fill="none" stroke="rgba(107,35,35,0.5)" stroke-width="1"/>
+
+  <g opacity="0.45">
+    <circle cx="120" cy="58" r="1.5" fill="#c97a7a" filter="url(#glow)">
+      <animate attributeName="cy" values="170;30;170" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="280" cy="140" r="1" fill="#f0ede8" filter="url(#glow)">
-      <animate attributeName="cy" values="190;30;190" dur="6s" repeatCount="indefinite" begin="1s"/>
-      <animate attributeName="opacity" values="0;0.6;0" dur="6s" repeatCount="indefinite" begin="1s"/>
+    <circle cx="270" cy="146" r="1.2" fill="#f0ede8" filter="url(#glow)">
+      <animate attributeName="cy" values="160;24;160" dur="7s" repeatCount="indefinite" begin="1s"/>
     </circle>
-    <circle cx="520" cy="90" r="2" fill="#c97a7a" filter="url(#glow)">
-      <animate attributeName="cy" values="185;15;185" dur="9s" repeatCount="indefinite" begin="2s"/>
-      <animate attributeName="opacity" values="0;0.8;0" dur="9s" repeatCount="indefinite" begin="2s"/>
+    <circle cx="525" cy="90" r="1.8" fill="#c97a7a" filter="url(#glow)">
+      <animate attributeName="cy" values="180;20;180" dur="9s" repeatCount="indefinite" begin="2s"/>
     </circle>
-    <circle cx="680" cy="130" r="1.5" fill="#f0ede8" filter="url(#glow)">
-      <animate attributeName="cy" values="170;25;170" dur="7s" repeatCount="indefinite" begin="0.5s"/>
-      <animate attributeName="opacity" values="0;0.7;0" dur="7s" repeatCount="indefinite" begin="0.5s"/>
-    </circle>
-    <circle cx="400" cy="50" r="1" fill="#c97a7a" filter="url(#glow)">
-      <animate attributeName="cy" values="195;10;195" dur="10s" repeatCount="indefinite" begin="3s"/>
-      <animate attributeName="opacity" values="0;0.5;0" dur="10s" repeatCount="indefinite" begin="3s"/>
-    </circle>
-    <circle cx="740" cy="70" r="1.8" fill="#f0ede8" filter="url(#glow)">
-      <animate attributeName="cy" values="180;35;180" dur="7.5s" repeatCount="indefinite" begin="1.5s"/>
-      <animate attributeName="opacity" values="0;0.6;0" dur="7.5s" repeatCount="indefinite" begin="1.5s"/>
+    <circle cx="700" cy="132" r="1.2" fill="#f0ede8" filter="url(#glow)">
+      <animate attributeName="cy" values="175;25;175" dur="6.5s" repeatCount="indefinite" begin="0.5s"/>
     </circle>
   </g>
-  <!-- Sparkles -->
-  <g filter="url(#accentGlow)">
-    <use href="#star" x="170" y="55" opacity="0">
-      <animate attributeName="opacity" values="0;0.9;0" dur="2.5s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="rotate" values="0 170 55;180 170 55" dur="2.5s" repeatCount="indefinite"/>
+
+  <g filter="url(#glow)">
+    <use href="#star" x="170" y="54" opacity="0">
+      <animate attributeName="opacity" values="0;0.9;0" dur="2.8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 170 54;180 170 54" dur="2.8s" repeatCount="indefinite"/>
     </use>
-    <use href="#star" x="620" y="65" opacity="0" transform="scale(0.7)">
-      <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite" begin="1s"/>
-      <animateTransform attributeName="transform" type="rotate" values="0 620 65;180 620 65" dur="3s" repeatCount="indefinite" begin="1s"/>
+    <use href="#star" x="620" y="66" opacity="0" transform="scale(0.7)">
+      <animate attributeName="opacity" values="0;0.8;0" dur="3.2s" repeatCount="indefinite" begin="1s"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 620 66;180 620 66" dur="3.2s" repeatCount="indefinite" begin="1s"/>
     </use>
-    <use href="#star" x="380" y="40" opacity="0" transform="scale(0.5)">
-      <animate attributeName="opacity" values="0;0.7;0" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
-      <animateTransform attributeName="transform" type="rotate" values="0 380 40;-180 380 40" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
-    </use>
-    <use href="#star" x="530" y="150" opacity="0" transform="scale(0.6)">
-      <animate attributeName="opacity" values="0;0.8;0" dur="2.8s" repeatCount="indefinite" begin="2s"/>
-      <animateTransform attributeName="transform" type="rotate" values="0 530 150;180 530 150" dur="2.8s" repeatCount="indefinite" begin="2s"/>
+    <use href="#star" x="385" y="40" opacity="0" transform="scale(0.55)">
+      <animate attributeName="opacity" values="0;0.7;0" dur="3.6s" repeatCount="indefinite" begin="0.5s"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 385 40;-180 385 40" dur="3.6s" repeatCount="indefinite" begin="0.5s"/>
     </use>
   </g>
-  <!-- Decorative lines -->
-  <line x1="80" y1="100" x2="250" y2="100" stroke="rgba(201,122,122,0.25)" stroke-width="1">
-    <animate attributeName="x2" values="180;250;180" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="5s" repeatCount="indefinite"/>
+
+  <line x1="86" y1="98" x2="248" y2="98" stroke="rgba(201,122,122,0.22)" stroke-width="1">
+    <animate attributeName="x2" values="176;248;176" dur="5s" repeatCount="indefinite"/>
   </line>
-  <circle cx="250" cy="100" r="2.5" fill="#c97a7a" opacity="0.4">
-    <animate attributeName="cx" values="180;250;180" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="5s" repeatCount="indefinite"/>
+  <circle cx="248" cy="98" r="2.4" fill="#c97a7a" opacity="0.45">
+    <animate attributeName="cx" values="176;248;176" dur="5s" repeatCount="indefinite"/>
   </circle>
-  <line x1="720" y1="100" x2="550" y2="100" stroke="rgba(201,122,122,0.25)" stroke-width="1">
-    <animate attributeName="x2" values="620;550;620" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="5s" repeatCount="indefinite"/>
+
+  <line x1="714" y1="98" x2="552" y2="98" stroke="rgba(201,122,122,0.22)" stroke-width="1">
+    <animate attributeName="x2" values="622;552;622" dur="5s" repeatCount="indefinite"/>
   </line>
-  <circle cx="550" cy="100" r="2.5" fill="#c97a7a" opacity="0.4">
-    <animate attributeName="cx" values="620;550;620" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="5s" repeatCount="indefinite"/>
+  <circle cx="552" cy="98" r="2.4" fill="#c97a7a" opacity="0.45">
+    <animate attributeName="cx" values="622;552;622" dur="5s" repeatCount="indefinite"/>
   </circle>
-  <!-- Subtitle -->
-  <text x="400" y="150" text-anchor="middle" font-size="12" fill="rgba(240,237,232,0.5)" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" letter-spacing="6">
-    super cool person
-    <animate attributeName="opacity" values="0.4;0.7;0.4" dur="4s" repeatCount="indefinite"/>
-  </text>
-  <!-- Main text -->
-  <text x="400" y="110" text-anchor="middle" font-size="52" font-weight="700" fill="url(#textGrad)" font-family="'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" letter-spacing="3">
+
+  <text x="400" y="108" text-anchor="middle"
+        font-family="'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="54" font-weight="700" letter-spacing="3"
+        fill="url(#text)">
     CazyUndee
     <animate attributeName="letter-spacing" values="3;5;3" dur="6s" repeatCount="indefinite"/>
   </text>
-  <!-- Border -->
-  <rect x="3" y="3" width="794" height="194" rx="12" fill="none" stroke="rgba(201,122,122,0.15)" stroke-width="1">
-    <animate attributeName="stroke-opacity" values="0.08;0.25;0.08" dur="4s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="7" y="7" width="786" height="186" rx="10" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="0.5">
-    <animate attributeName="stroke-opacity" values="0.03;0.12;0.03" dur="4s" repeatCount="indefinite" begin="2s"/>
-  </rect>
+
+  <text x="400" y="150" text-anchor="middle"
+        font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace"
+        font-size="12" letter-spacing="6"
+        fill="rgba(240,237,232,0.55)">
+    super cool person
+    <animate attributeName="opacity" values="0.45;0.75;0.45" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <rect x="3" y="3" width="794" height="194" rx="12" fill="none" stroke="rgba(107,35,35,0.18)" stroke-width="1"/>
 </svg>
