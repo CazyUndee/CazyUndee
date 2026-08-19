@@ -1,105 +1,92 @@
-<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CazyUndee banner">
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CazyUndee">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a0a"/>
-      <stop offset="55%" stop-color="#111111"/>
-      <stop offset="100%" stop-color="#1a1a1a"/>
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#141414"/>
     </linearGradient>
 
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6b2323"/>
-      <stop offset="50%" stop-color="#8b3333"/>
-      <stop offset="100%" stop-color="#6b2323"/>
-    </linearGradient>
+```
+<linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#6b2323" stop-opacity="0"/>
+  <stop offset="50%" stop-color="#c97a7a" stop-opacity="0.8"/>
+  <stop offset="100%" stop-color="#6b2323" stop-opacity="0"/>
+</linearGradient>
 
-    <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f0ede8"/>
-      <stop offset="50%" stop-color="#c97a7a"/>
-      <stop offset="100%" stop-color="#f0ede8"/>
-    </linearGradient>
+<filter id="glow">
+  <feGaussianBlur stdDeviation="5" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M 40 0 L 0 0 0 40" fill="none"
+        stroke="#ffffff" stroke-opacity="0.025"/>
+</pattern>
+```
 
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.55"/>
-    </filter>
-
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="rgba(255,255,255,0.03)"/>
-    </pattern>
-
-    <polygon id="star" points="0,-4 1.2,-1.2 4,0 1.2,1.2 0,4 -1.2,1.2 -4,0 -1.2,-1.2" fill="#c97a7a"/>
   </defs>
 
-  <rect width="800" height="200" rx="14" fill="url(#bg)" filter="url(#shadow)"/>
-  <rect width="800" height="200" rx="14" fill="url(#scan)" opacity="0.5"/>
-  <rect x="8" y="8" width="784" height="184" rx="10" fill="none" stroke="rgba(107,35,35,0.5)" stroke-width="1"/>
+  <!-- background -->
 
-  <g opacity="0.45">
-    <circle cx="120" cy="58" r="1.5" fill="#c97a7a" filter="url(#glow)">
-      <animate attributeName="cy" values="170;30;170" dur="8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="270" cy="146" r="1.2" fill="#f0ede8" filter="url(#glow)">
-      <animate attributeName="cy" values="160;24;160" dur="7s" repeatCount="indefinite" begin="1s"/>
-    </circle>
-    <circle cx="525" cy="90" r="1.8" fill="#c97a7a" filter="url(#glow)">
-      <animate attributeName="cy" values="180;20;180" dur="9s" repeatCount="indefinite" begin="2s"/>
-    </circle>
-    <circle cx="700" cy="132" r="1.2" fill="#f0ede8" filter="url(#glow)">
-      <animate attributeName="cy" values="175;25;175" dur="6.5s" repeatCount="indefinite" begin="0.5s"/>
-    </circle>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+
+  <!-- subtle border -->
+
+<rect x="1" y="1" width="1198" height="298" rx="17"
+     fill="none" stroke="#6b2323" stroke-opacity="0.35"/>
+
+  <!-- ambient glow -->
+
+<circle cx="600" cy="135" r="110"
+       fill="#8b3333" opacity="0.035"
+       filter="url(#glow)"/>
+
+  <!-- accent line -->
+
+<rect x="420" y="203" width="360" height="1"
+     fill="url(#accent)"/>
+
+  <!-- decorative nodes -->
+
+  <g fill="#c97a7a" opacity="0.45">
+    <circle cx="190" cy="92" r="2"/>
+    <circle cx="1010" cy="92" r="2"/>
+    <circle cx="250" cy="214" r="1.5"/>
+    <circle cx="950" cy="214" r="1.5"/>
   </g>
 
-  <g filter="url(#glow)">
-    <use href="#star" x="170" y="54" opacity="0">
-      <animate attributeName="opacity" values="0;0.9;0" dur="2.8s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="rotate" values="0 170 54;180 170 54" dur="2.8s" repeatCount="indefinite"/>
-    </use>
-    <use href="#star" x="620" y="66" opacity="0" transform="scale(0.7)">
-      <animate attributeName="opacity" values="0;0.8;0" dur="3.2s" repeatCount="indefinite" begin="1s"/>
-      <animateTransform attributeName="transform" type="rotate" values="0 620 66;180 620 66" dur="3.2s" repeatCount="indefinite" begin="1s"/>
-    </use>
-    <use href="#star" x="385" y="40" opacity="0" transform="scale(0.55)">
-      <animate attributeName="opacity" values="0;0.7;0" dur="3.6s" repeatCount="indefinite" begin="0.5s"/>
-      <animateTransform attributeName="transform" type="rotate" values="0 385 40;-180 385 40" dur="3.6s" repeatCount="indefinite" begin="0.5s"/>
-    </use>
-  </g>
+  <!-- title -->
 
-  <line x1="86" y1="98" x2="248" y2="98" stroke="rgba(201,122,122,0.22)" stroke-width="1">
-    <animate attributeName="x2" values="176;248;176" dur="5s" repeatCount="indefinite"/>
-  </line>
-  <circle cx="248" cy="98" r="2.4" fill="#c97a7a" opacity="0.45">
-    <animate attributeName="cx" values="176;248;176" dur="5s" repeatCount="indefinite"/>
-  </circle>
+<text x="600" y="145"
+     text-anchor="middle"
+     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+     font-size="64"
+     font-weight="700"
+     letter-spacing="4"
+     fill="#f0ede8">
+CazyUndee </text>
 
-  <line x1="714" y1="98" x2="552" y2="98" stroke="rgba(201,122,122,0.22)" stroke-width="1">
-    <animate attributeName="x2" values="622;552;622" dur="5s" repeatCount="indefinite"/>
-  </line>
-  <circle cx="552" cy="98" r="2.4" fill="#c97a7a" opacity="0.45">
-    <animate attributeName="cx" values="622;552;622" dur="5s" repeatCount="indefinite"/>
-  </circle>
+  <!-- subtitle -->
 
-  <text x="400" y="108" text-anchor="middle"
-        font-family="'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-        font-size="54" font-weight="700" letter-spacing="3"
-        fill="url(#text)">
-    CazyUndee
-    <animate attributeName="letter-spacing" values="3;5;3" dur="6s" repeatCount="indefinite"/>
-  </text>
+<text x="600" y="184"
+     text-anchor="middle"
+     font-family="'JetBrains Mono', 'Fira Code', monospace"
+     font-size="13"
+     letter-spacing="5"
+     fill="#c97a7a"
+     opacity="0.75">
+AI · SYSTEMS · INFRA · UI </text>
 
-  <text x="400" y="150" text-anchor="middle"
-        font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace"
-        font-size="12" letter-spacing="6"
-        fill="rgba(240,237,232,0.55)">
-    super cool person
-    <animate attributeName="opacity" values="0.45;0.75;0.45" dur="4s" repeatCount="indefinite"/>
-  </text>
+  <!-- tiny status -->
 
-  <rect x="3" y="3" width="794" height="194" rx="12" fill="none" stroke="rgba(107,35,35,0.18)" stroke-width="1"/>
-</svg>
+<text x="600" y="238"
+     text-anchor="middle"
+     font-family="'JetBrains Mono', 'Fira Code', monospace"
+     font-size="11"
+     letter-spacing="2"
+     fill="#f0ede8"
+     opacity="0.35">
+BUILDING THINGS THAT PROBABLY SHOULDN'T EXIST </text> </svg>
