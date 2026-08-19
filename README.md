@@ -2,16 +2,13 @@
   <img src="./banner.svg" alt="CazyUndee banner" width="100%"/>
 </p>
 
-# CazyUndee
-
-I build weird software across **AI, systems, infrastructure, and UI**.
+Build weird things
 
 Currently building things that probably should not be this complicated:
 
-* **Plan0** — an agent-first development environment
-* **Axent** — an agent-first IDE
-* **Bixon** — a programming language built for humans
-* **CronixUI** — a UI library for building ridiculously polished interfaces
+* **Plan0** - Completely from scratch 64-bit OS like UNIX but extremeDE
+* **Bixon** - a programming language built for humans (very early it compiles to assembly its pain)
+* **CronixUI** - a UI library for building ridiculously polished interfaces (11 langs across native mobile, native desktop and web apps)
 
 I like building things from the bottom up, whether that's a model, runtime, CLI, operating system, interface, or some questionable combination of all five.
 
