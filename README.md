@@ -1,37 +1,29 @@
-<p align="center">
-  <img src="./banna.svg" alt="Banner" width="100%"/>
-</p>
+# CazyUndee
 
-# Hi, I'm CazyUndee
+I build weird software across **AI, systems, infrastructure, and UI**.
 
-I'm 13, skibidi ML engineer building weird things linked between AI, Infra, Systems, and UI
+Currently building things that probably should not be this complicated:
+
+* **Plan0** — an agent-first development environment
+* **Axent** — an agent-first IDE
+* **Bixon** — a programming language built for humans
+* **CronixUI** — a UI library for building ridiculously polished interfaces
+
+I like building things from the bottom up, whether that's a model, runtime, CLI, operating system, interface, or some questionable combination of all five.
+
+### What I've been working on
+
+* Agentic development tools
+* Local AI & inference
+* Systems and infrastructure
+* Programming languages
+* UI systems
+* Generally making computers do things they weren't supposed to do
+
+### Find me elsewhere
+
+[Personal Website](#) · [Writing](#) · [Hugging Face](https://huggingface.co/cazyundee) · [Kaggle](https://www.kaggle.com/crazybro)
 
 ---
-<table border="0" cellspacing="0">
-<tr>
-<td valign="top" width="50%">
 
-![My Stats](https://bio-stats.vercel.app/api?username=CazyUndee)
-
-</td>
-<td valign="top" width="50%">
-
-**What im doing rn:**
-- Making Varn, a public chat app that runs on my hardware
-- Making Dxen, an agentic coding CLI built for performance and speed
-- Making Bixon, a programming language built from TypeScript to be as intuitive as possible
-
-**Recent Projects:**
-- OpenRelay
-- CronixUI
-
-</td>
-</tr>
-</table>
-
-### Where I Am (dev platforms)
-<p>
-  <a href="https://github.com/cazyundee"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
-  <a href="https://huggingface.co/cazyundee"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black" /></a>
-  <a href="https://www.kaggle.com/crazybro"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
-</p>
+> building things, breaking things, figuring out why they broke
