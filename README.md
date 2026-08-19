@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./banner.svg" alt="CazyUndee banner" width="100%"/>
+</p>
+
 # CazyUndee
 
 I build weird software across **AI, systems, infrastructure, and UI**.
