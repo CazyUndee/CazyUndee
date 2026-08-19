@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="CazyUndee banner" width="100%"/>
+  <img src="./banna.svg" alt="CazyUndee banner" width="100%"/>
 </p>
 
 # CazyUndee
