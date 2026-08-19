@@ -2,21 +2,21 @@
   <img src="./banner.svg" alt="CazyUndee banner" width="100%"/>
 </p>
 
-Build weird things
+I build weird things.
 
 Currently building things that probably should not be this complicated:
 
-* **Plan0** - Completely from scratch 64-bit OS like UNIX but extremeDE
-* **Bixon** - a programming language built for humans (very early it compiles to assembly its pain)
-* **CronixUI** - a UI library for building ridiculously polished interfaces (11 langs across native mobile, native desktop and web apps)
+* **Plan0** - a completely from-scratch 64-bit OS inspired by UNIX, but taken way too far
+* **Bixon** - a programming language built for humans. Very early, compiles to assembly, and currently very painful
+* **CronixUI** - a UI library for building ridiculously polished interfaces, with 11 language targets across web, desktop, and mobile
 
 I like building things from the bottom up, whether that's a model, runtime, CLI, operating system, interface, or some questionable combination of all five.
 
-### What I've been working on
+### What I work on
 
 * Agentic development tools
 * Local AI & inference
-* Systems and infrastructure
+* Systems & infrastructure
 * Programming languages
 * UI systems
 * Generally making computers do things they weren't supposed to do
