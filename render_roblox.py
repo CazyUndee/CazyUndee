@@ -58,6 +58,7 @@ bpy.ops.import_scene.obj(
 
 mesh_objects = [obj for obj in bpy.context.scene.objects if obj.type == "MESH"]
 baseplates = [obj for obj in mesh_objects if obj.name.lower().startswith("baseplate")]
+baseplate_names = [obj.name for obj in baseplates]
 for obj in baseplates:
     bpy.data.objects.remove(obj, do_unlink=True)
 mesh_objects = [obj for obj in bpy.context.scene.objects if obj.type == "MESH"]
@@ -208,15 +209,15 @@ def add_light(name, location, energy, color=(1.0, 0.96, 0.9)):
     return obj
 
 add_light("KeyLight", (center[0] + 7, center[1] - 8, center[2] + 8), 900)
-add_light("FillLight", (center[0] - 8, center[1] - 3, center[2] + 3), 350, (0.75, 0.85, 1.0, 1.0))
-add_light("RimLight", (center[0], center[1] + 7, center[2] + 7), 500, (0.8, 0.9, 1.0, 1.0))
+add_light("FillLight", (center[0] - 8, center[1] - 3, center[2] + 3), 350, (0.75, 0.85, 1.0))
+add_light("RimLight", (center[0], center[1] + 7, center[2] + 7), 500, (0.8, 0.9, 1.0))
 
 bpy.context.view_layer.objects.active = mesh_objects[0] if mesh_objects else None
 bpy.ops.wm.save_as_mainfile(filepath=str(OUT / "roblox_character_no_baseplate.blend"))
 
 info = {
     "imported_objects": [obj.name for obj in mesh_objects],
-    "removed_baseplates": [obj.name for obj in baseplates],
+    "removed_baseplates": baseplate_names,
     "remaining_mesh_count": len(mesh_objects),
     "bounds_min": mins,
     "bounds_max": maxs,

@@ -1,0 +1,45 @@
+{
+  "imported_objects": [
+    "Spawnlocation1",
+    "Spawnlocation2",
+    "Cazyundee1",
+    "Cazyundee2",
+    "Cazyundee3",
+    "Cazyundee4",
+    "Cazyundee5",
+    "Cazyundee6",
+    "Cazyundee7",
+    "Cazyundee8",
+    "Cazyundee9",
+    "Handle1",
+    "Handle2",
+    "Handle3",
+    "Handle4",
+    "Handle5",
+    "Handle6",
+    "Handle7"
+  ],
+  "removed_baseplates": [
+    "Baseplate1",
+    "Baseplate2"
+  ],
+  "remaining_mesh_count": 18,
+  "bounds_min": [
+    -6.0,
+    -6.0,
+    -6.029379844665527
+  ],
+  "bounds_max": [
+    6.0,
+    6.0,
+    2.6226831550957286e-07
+  ],
+  "center": [
+    0.0,
+    0.0,
+    -3.014689791198606
+  ],
+  "output_png": "/workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_render/roblox_character_path_traced.png",
+  "output_obj": "/workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_render/er_no_baseplate.obj",
+  "output_blend": "/workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_render/roblox_character_no_baseplate.blend"
+}
