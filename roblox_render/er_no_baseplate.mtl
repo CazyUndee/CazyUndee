@@ -1,0 +1,141 @@
+# Blender MTL File: 'None'
+# Material Count: 11
+
+newmtl Cazyundee1Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Cazyundee1_diff.png
+map_d /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Cazyundee1_diff.png
+
+newmtl Cazyundee5Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Cazyundee5_diff.png
+map_d /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Cazyundee5_diff.png
+
+newmtl Handle1Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle1_diff.png
+map_Ke /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle1_emap.png
+map_d /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle1_diff.png
+
+newmtl Handle2Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 0.700000 /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle2_nmap.png
+map_Kd /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle2_diff.png
+map_Ke /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle2_emap.png
+map_d /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle2_diff.png
+
+newmtl Handle3Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ke /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle3_emap.png
+
+newmtl Handle4Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 0.700000 /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle4_nmap.png
+map_Kd /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle4_diff.png
+map_Ke /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle4_emap.png
+map_d /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle4_diff.png
+
+newmtl Handle5Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 0.700000 /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle5_nmap.png
+map_Kd /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle5_diff.png
+map_Ke /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle5_emap.png
+map_d /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle5_diff.png
+
+newmtl Handle6Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle6_diff.png
+map_d /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle6_diff.png
+
+newmtl Handle7Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle7_diff.png
+map_d /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Handle7_diff.png
+
+newmtl Spawnlocation1Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 0.700000 /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Spawnlocation1_nmap.png
+map_Kd /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Spawnlocation1_diff.png
+map_d /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Spawnlocation1_diff.png
+
+newmtl Spawnlocation2Mtl
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Spawnlocation2_diff.png
+map_d /workspace/9b6a612a-5e4b-49b7-a428-31396c1ded33/sessions/agent_cb006318-2a61-4d30-b662-cecb70323348/roblox_dataset/Spawnlocation2_diff.png

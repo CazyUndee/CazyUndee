@@ -1,0 +1,233 @@
+newmtl Spawnlocation1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0234425 0.0231273 0.02408 
+
+d 1
+
+Ns 0
+
+map_Ka Spawnlocation1_diff.png
+map_Kd Spawnlocation1_diff.png
+map_d Spawnlocation1_diff.png
+
+map_Bump Spawnlocation1_nmap.png
+
+newmtl Spawnlocation2Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka Spawnlocation2_diff.png
+map_Kd Spawnlocation2_diff.png
+map_d Spawnlocation2_diff.png
+
+newmtl Baseplate1Mtl
+Material Color
+Ka 0.103634 0.103634 0.103634
+Kd 0.103634 0.103634 0.103634
+Ks 0.00650253 0.00650253 0.00650253 
+
+d 1
+
+Ns 0
+
+map_Ka Spawnlocation1_diff.png
+map_Kd Spawnlocation1_diff.png
+map_d Spawnlocation1_diff.png
+
+map_Bump Spawnlocation1_nmap.png
+
+newmtl Handle3Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ke 1 1 1
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Handle2_diff.png
+map_Kd Handle2_diff.png
+map_d Handle2_diff.png
+
+map_Bump Handle2_nmap.png
+
+map_Ns Handle2_spec.png
+
+map_Ke Handle3_emap.png
+
+rbx_alphamode overlay
+
+newmtl Cazyundee5Mtl
+Material Color
+Ka 0.875138 0.618686 0.560499
+Kd 0.875138 0.618686 0.560499
+Ks 0.0755021 0.0533768 0.0483568 
+
+d 1
+
+Ns 255
+
+map_Ka Cazyundee5_diff.png
+map_Kd Cazyundee5_diff.png
+map_d Cazyundee5_diff.png
+
+rbx_alphamode overlay
+
+newmtl Baseplate2Mtl
+Material Color
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0 
+
+d 0.2
+
+Ns 0
+
+map_Ka Baseplate2_diff.png
+map_Kd Baseplate2_diff.png
+map_d Baseplate2_diff.png
+
+newmtl Handle5Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ke 1 1 1
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Handle5_diff.png
+map_Kd Handle5_diff.png
+map_d Handle5_diff.png
+
+map_Bump Handle5_nmap.png
+
+map_Ns Handle5_spec.png
+
+map_Ke Handle5_emap.png
+
+rbx_alphamode overlay
+
+newmtl Cazyundee1Mtl
+Material Color
+Ka 0.875138 0.618686 0.560499
+Kd 0.875138 0.618686 0.560499
+Ks 0.0549106 0.0388195 0.0351686 
+
+d 1
+
+Ns 0
+
+map_Ka Cazyundee1_diff.png
+map_Kd Cazyundee1_diff.png
+map_d Cazyundee1_diff.png
+
+newmtl Handle1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ke 1 1 1
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Handle1_diff.png
+map_Kd Handle1_diff.png
+map_d Handle1_diff.png
+
+map_Bump Handle1_nmap.png
+
+map_Ns Handle1_spec.png
+
+map_Ke Handle1_emap.png
+
+rbx_alphamode overlay
+
+newmtl Handle2Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ke 1 1 1
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Handle2_diff.png
+map_Kd Handle2_diff.png
+map_d Handle2_diff.png
+
+map_Bump Handle2_nmap.png
+
+map_Ns Handle2_spec.png
+
+map_Ke Handle2_emap.png
+
+rbx_alphamode overlay
+
+newmtl Handle4Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ke 1 1 1
+Ks 0.0322335 0.0318 0.03311 
+
+d 1
+
+Ns 255
+
+map_Ka Handle4_diff.png
+map_Kd Handle4_diff.png
+map_d Handle4_diff.png
+
+map_Bump Handle4_nmap.png
+
+map_Ns Handle4_spec.png
+
+map_Ke Handle4_emap.png
+
+rbx_alphamode overlay
+
+newmtl Handle6Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0234425 0.0231273 0.02408 
+
+d 1
+
+Ns 0
+
+map_Ka Handle6_diff.png
+map_Kd Handle6_diff.png
+map_d Handle6_diff.png
+
+newmtl Handle7Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0234425 0.0231273 0.02408 
+
+d 1
+
+Ns 0
+
+map_Ka Handle7_diff.png
+map_Kd Handle7_diff.png
+map_d Handle7_diff.png
+
